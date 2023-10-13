@@ -1,0 +1,23 @@
+.details {
+    border-radius: 20px;
+    height: 400px;
+    margin: 3px 30px 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .details img {
+    width: 450px;
+  }
+  
+  .bookimg {
+    margin-right: 15px;
+    height: 350px;
+  }
+  
+  .description {
+    margin-left: 15px;
+    height: 350px;
+  }
+  

@@ -1,0 +1,70 @@
+.navbar {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  background-color: #675D50;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.shopTitle {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+.links {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.links a {
+  text-align: center;
+  width: 80px;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 21px;
+  font-weight:600;
+}
+
+.links a:hover {
+  color: #ff0000;
+}
+
+.cart-link {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.cart-count {
+  position: absolute;
+  top: 1.3rem;
+  right: 1.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+  background-color: rgb(255, 0, 0);
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.search-input {
+  width: 300px;
+  height: 40px;
+  border-radius: 20px;
+  margin-left: 20px;
+}
+
+.logo {
+  width: 450px;
+}

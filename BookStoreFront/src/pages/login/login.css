@@ -1,0 +1,35 @@
+form {
+  padding-top: 20%;
+}
+
+.login-form-container {
+  max-width: 430px;
+  padding: 25px;
+}
+
+.login-form-container .form-floating:focus-within {
+  z-index: 2;
+}
+
+.login-form-container input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.login-form-container input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.signup-link {
+  text-decoration: underline;
+  margin-top: 10px;
+  color: #131313;
+}
+
+.box {
+  display: inline-block;
+  margin-right: 5px;
+}
